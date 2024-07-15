@@ -1,7 +1,24 @@
 /*.principal {color: #4EC2B2}
-.fundo {color: #93F5E8}
-.destaque {color: #CCFFF8}*/
+.destaque {color: #93F5E8}
+ .fundo{color: #CCFFF8}*/
 html {
-    background :#93F5E8;;
-    color:#4EC2B2 ;
+    background: #CCFFF8;
+    color: #4EC2B2;
+
+    font-size: 16px;
+    font-family: sans-serif;
 }
+p{ 
+     text-indent: 1em;
+}
+h1,h2,h3{
+    text-align: center;
+}
+h1{font-size: 1.8rem;}
+h2{font-size: 1.4rem;}
+h3{font-size: 1.2rem;}
+.summary{
+    text-align: right;
+}
+.main p{line-height: 1.5;}
+abbr{font-variant: small-caps;}
