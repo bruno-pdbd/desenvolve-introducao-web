@@ -1,6 +1,27 @@
 /*.principal {color: #4EC2B2}
 .destaque {color: #93F5E8}
  .fundo{color: #CCFFF8}*/
+ a{
+    color: #93F5E8;
+    font-weight: bold;
+ }
+ a:hover{
+    color: #00ffdd;
+ }
+ a:visited{
+    font-weight: normal;
+ }
+ .main p:first-of-type::first-letter{
+    font-size: 3em;
+    font-family: helvetica;
+    float:left
+ }
+#design-selection li{
+    border-top:#93F5E8 solid 1px;
+}
+#design-selection li:last-of-type{
+    border-bottom: #93F5E8 solid 1px;
+}
  .explanation{
     width: 60%;
     border-right: #4EC2B2 solid 1px;
