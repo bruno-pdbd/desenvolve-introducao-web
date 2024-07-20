@@ -1,6 +1,35 @@
 /*.principal {color: #4EC2B2}
 .destaque {color: #93F5E8}
  .fundo{color: #CCFFF8}*/
+@media screen and (max-width: 768px){
+    .design-selection{
+        position: static;
+        width: 100%;
+    }
+    .explanation{
+        border-right:none;
+        width: 100%;
+    }
+    #zen-intro{
+        height: auto;
+    }
+    .participation{
+        flex-direction: column;
+    }
+    p{
+        text-indent: 0;
+    }
+@media print{
+     html {
+        font-family: 'Times New Roman', Times, serif;
+
+     }
+     #zen-intro header{
+        background-color:#CCFFF8 ;
+        color:#4EC2B2;
+     }
+}
+}
  a{
     color: #93F5E8;
     font-weight: bold;
